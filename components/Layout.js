@@ -1,4 +1,5 @@
 import Navigation from '../components/Navigation';
+import "../resources/sass/styles.scss";
 
 const Layout = (props) => (
     <div>
