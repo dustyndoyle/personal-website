@@ -9,7 +9,8 @@ export default class extends Component {
 
         const postId = context.query.id;
         
-        const res = await axios.get( 'http://dustyn-wordpress.192.168.254.78.xip.io:8888/wp-json/wp/v2/posts/' + postId );
+        // const res = await axios.get( 'http://dustyn-wordpress.192.168.254.78.xip.io:8888/wp-json/wp/v2/posts/' + postId );
+        const res = await axios.get( 'http://dustynwordpress.10.0.1.19.xip.io/wp-json/wp/v2/posts/' + postId );
 
         return {
             post: res.data
